@@ -1,0 +1,39 @@
+body {
+    background-image: url("/static/imagenes/texture.jpg");
+    /*background: rgba(219, 233, 230, 0.5);*/
+    margin-top: 50x;
+    margin-left: 100px;
+}
+
+.special{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    color: black;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    color: rgb(5, 5, 8);
+}
+
+div{
+    width: 900px;
+    height: 100px;
+    background:#c8c8b4;
+}
+html {
+    min-height: 100%;
+    position: relative;
+  }
+  body {
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  footer {
+    position: -10%;
+    background-color: black;
+    bottom: 0;
+    width: 100%;
+    color: white;
+  }

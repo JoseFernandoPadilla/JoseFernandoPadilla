@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+    <link rel="stylesheet" href="">
+
+{% block head %}
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA.Compatible" content="IE-edge">
+  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <title>{% block titulo %} {% endblock %} </title>
+  <link rel="stylesheet" href="/static/css/estilos.css"/>
+</head>
+{% endblock %}
+
+{% block body %}
+<body>
+{% block encabezado %}
+<center>
+<h1>
+  <br> <img src="/static/imagenes/FPCaptura.PNG" width="150" height="150">
+  <h1>Block de Notas FP</h1>
+</h1>
+
+
+
+{% endblock %}
+
+{% block contenido %}
+{% endblock %}
+
+{% block pie %}
+{% endblock %}
+
+
+</body>
+{% endblock %}
+</html>
