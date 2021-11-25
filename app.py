@@ -9,7 +9,7 @@ app = Flask(__name__) #cuando se crea y se ejecuta le asigna en automatico un id
 db = SQLAlchemy(app) 
 
 #postgresql://<nombre_usuario>:<password>@<host>:<puerto>/<nombre_basededatos>
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://mzjietukrqkocq:b67f30b0ae3a008ceb0a4cd2e71b4ac43f42fde16ca144f63f5700f175de1088@ec2-52-86-193-24.compute-1.amazonaws.com:5432/d5n9q735ki5t9m'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://mzjietukrqkocq:b67f30b0ae3a008ceb0a4cd2e71b4ac43f42fde16ca144f63f5700f175de1088@ec2-52-86-193-24.compute-1.amazonaws.com:5432/d5n9q735ki5t9m'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 class Notas(db.Model):
